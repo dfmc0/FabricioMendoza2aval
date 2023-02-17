@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examen aplicacions web</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <a class="titulo"> Premis GOYA</h1>
+    </header>
+    <nav>
+         <a href="index.html" class="link">Edicions Anteriores</a>
+         -
+         <a href="index.html" class="link">Nominats</a>
+         -
+         <a href="contacte.html" class="link">Contacte</a> 
+    </nav>
+    <article>
+        <div class="formu">
+            <form action="get" method="votacio.php">
+                <p class="sub">Contacte</p>
+                <br>
+                <p class="sub"> Nom
+                    <input type="text" placeholder="Nom">
+                    Cognoms 
+                    <input type="text" placeholder="Cognom">
+                </p>
+                <p class="sub">
+                    Peli favorita
+                    <select name="peli" id=""> 
+                    <option value="1">Alcarrás</option>
+                    <option value="2">As Bestas</option>
+                    <option value="3">Cinco Lobitos</option>
+                    <option value="4">La Maternal</option>
+                    <option value="5">Modelo 77</option>
+                </select>
+                    Puntuació
+                    <input type="number" min="1" max="10">
+                </p>
+                <p class="opi">Opinió
+                    <input type="text" height="250" class="opi">
+                </p>
+                <p class="Votar"><input type="submit" class="Votar" title="Votar" value="Votar"></p>
+            </form>
+
+        </div>
+    </article>
+</body>
+</html>
